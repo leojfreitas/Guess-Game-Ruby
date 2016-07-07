@@ -23,7 +23,7 @@ while
 	end
 if 
 	tentativas==10
-	puts "Game Over \n O numero era #{pc_numero}"		 
+	puts "  Game Over \n O numero era  #{pc_numero}"		 
 	break
 end
 	#contador regressivo e progressivo
@@ -34,9 +34,10 @@ end
 	seu_numero =gets.to_i
 
 	if	pc_numero==seu_numero
-		puts "    Parabéns \nO numero era #{pc_numero}"
-		end
+		puts "    Parabéns Você Acertou!!   "
+	end
 end
+puts""
 puts"Você usou #{tentativas} tentativas"
 puts"Deseja jogar novamente (s/n)"
 novo_jogo = gets.chomp
