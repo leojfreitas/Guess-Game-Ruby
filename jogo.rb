@@ -33,16 +33,17 @@ end
 	puts "Tente novamente! Você tem #{tent} chances"
 	seu_numero =gets.to_i
 
-	if	pc_numero==seu_numero
-		puts "    Parabéns Você Acertou!!   "
+	if	
+		pc_numero==seu_numero
+		puts "-----Parabéns Você Acertou!!-----"
 	end
 end
-puts""
-puts"Você usou #{tentativas} tentativas"
-puts"Deseja jogar novamente (s/n)"
-novo_jogo = gets.chomp
+	puts""
+	puts"Você usou #{tentativas} tentativas"
+	puts"Deseja jogar novamente (s/n)"
+	novo_jogo = gets.chomp
 
 
  	end
 
-puts"tchau!"
+	puts"tchau!"
